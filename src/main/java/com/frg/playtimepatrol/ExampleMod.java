@@ -1,4 +1,4 @@
-package com.example;
+package com.frg.playtimepatrol;
 
 import net.fabricmc.api.ModInitializer;
 
