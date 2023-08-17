@@ -1,22 +1,22 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "com.frg.playtimepatrol",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Playtime Patrol",
+	"description": "A Minecraft Fabric mod that monitors and limits player activity, ensuring balanced playtimes. Whether to prevent burnout, maintain server health, or simply encourage breaks, this mod acts as the ever-watchful guardian of in-game hours.",
 	"authors": [
-		"Me!"
+		"jeanfrg@gmail.com"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/frg/playtime-patrol",
+		"sources": "https://github.com/frg/playtime-patrol"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/modid/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.frg.playtimepatrol.PlaytimePatrol"
 		],
 		"client": [
 			"com.example.ExampleModClient"
@@ -30,8 +30,8 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.14.21",
-		"minecraft": "~1.20.1",
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.19.4",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
