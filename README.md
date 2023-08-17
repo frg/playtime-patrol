@@ -1,9 +1,3 @@
-# Fabric Example Mod
+# Playtime Patrol (Minecraft Fabric Mod)
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+A Minecraft Fabric mod that monitors and limits player activity, ensuring balanced playtimes. Whether to prevent burnout, maintain server health, or simply encourage breaks, this mod acts as the ever-watchful guardian of in-game hours.
