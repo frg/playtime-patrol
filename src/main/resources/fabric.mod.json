@@ -18,6 +18,9 @@
 		"main": [
 			"com.frg.playtimepatrol.PlaytimePatrolMod"
 		],
+		"modmenu": [
+			"com.frg.playtimepatrol.ModMenu"
+		],
 		"client": [
 			"com.frg.playtimepatrol.PlaytimePatrolModClient"
 		]
